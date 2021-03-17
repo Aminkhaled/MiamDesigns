@@ -55,7 +55,33 @@ miam-designers section
 .designer-sidebar{
     -ms-flex: 25%;
     width: 25%;
-    background-color: #ffa500;
+    margin-top: 40px;
+
+}
+.designer-sidebar .filter-style{
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+.designer-sidebar .filter-style h2{
+    font-size: 25px;
+    color:rgba(0,0,0,0.5);
+    margin-bottom: 25px;
+}
+.designer-sidebar .filter-style .form .form-group{
+    display: flex;
+    margin-bottom: 15px;
+}
+.designer-sidebar .filter-style .form .form-group .form-control{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.designer-sidebar .filter-style label{
+    color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 .choose-designers{
     -ms-flex: 75%;
@@ -119,7 +145,7 @@ miam-designers section
     .designer-sidebar{
         -ms-flex: 100%;
         width: 100%;
-        background-color: #ffa500;
+
     }
     .choose-designers{
         -ms-flex: 100%;
