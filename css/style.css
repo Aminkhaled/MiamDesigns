@@ -178,3 +178,18 @@ miam-designers section
 
         }
 }
+@media only screen and (max-width: 320px){
+    .choose-designers{
+        margin-top: 80px;
+    }
+    .miam-breadcrumb .miam-breadcrumb-text h2:after {
+        content: '';
+        position: absolute;
+        background-color: #ffa500;
+        width: 140px;
+        top: 110px;
+        height: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
