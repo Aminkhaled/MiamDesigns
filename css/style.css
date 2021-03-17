@@ -166,7 +166,7 @@ miam-designers section
     .choose-designers .designers-intro .designer{
         -ms-flex: 100%;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
         .designer-sidebar{
@@ -183,7 +183,7 @@ miam-designers section
 }
 @media only screen and (max-width: 320px){
     .choose-designers{
-        margin-top: 100px;
+        margin-top: 120px;
     }
     .miam-breadcrumb .miam-breadcrumb-text h2:after {
         content: '';
