@@ -180,7 +180,7 @@ miam-designers section
 }
 @media only screen and (max-width: 320px){
     .choose-designers{
-        margin-top: 80px;
+        margin-top: 100px;
     }
     .miam-breadcrumb .miam-breadcrumb-text h2:after {
         content: '';
